@@ -1,9 +1,9 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/Feature/FeatureFile.feature");
 formatter.feature({
   "line": 2,
-  "name": "dfgfg",
+  "name": "This is just a sample  BDD feature",
   "description": "",
-  "id": "dfgfg",
+  "id": "this-is-just-a-sample--bdd-feature",
   "keyword": "Feature",
   "tags": [
     {
@@ -20,7 +20,7 @@ formatter.scenarioOutline({
   "line": 70,
   "name": "DataProvider1",
   "description": "",
-  "id": "dfgfg;dataprovider1",
+  "id": "this-is-just-a-sample--bdd-feature;dataprovider1",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -49,48 +49,48 @@ formatter.examples({
   "line": 75,
   "name": "",
   "description": "",
-  "id": "dfgfg;dataprovider1;",
+  "id": "this-is-just-a-sample--bdd-feature;dataprovider1;",
   "rows": [
     {
       "cells": [
         "RowNum"
       ],
       "line": 76,
-      "id": "dfgfg;dataprovider1;;1"
+      "id": "this-is-just-a-sample--bdd-feature;dataprovider1;;1"
     },
     {
       "cells": [
         "2"
       ],
       "line": 77,
-      "id": "dfgfg;dataprovider1;;2"
+      "id": "this-is-just-a-sample--bdd-feature;dataprovider1;;2"
     },
     {
       "cells": [
         "3"
       ],
       "line": 78,
-      "id": "dfgfg;dataprovider1;;3"
+      "id": "this-is-just-a-sample--bdd-feature;dataprovider1;;3"
     },
     {
       "cells": [
         "4"
       ],
       "line": 79,
-      "id": "dfgfg;dataprovider1;;4"
+      "id": "this-is-just-a-sample--bdd-feature;dataprovider1;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3600011072,
+  "duration": 5960632300,
   "status": "passed"
 });
 formatter.scenario({
   "line": 77,
   "name": "DataProvider1",
   "description": "",
-  "id": "dfgfg;dataprovider1;;2",
+  "id": "this-is-just-a-sample--bdd-feature;dataprovider1;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -139,7 +139,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_url_fromm_rownum(String)"
 });
 formatter.result({
-  "duration": 3329200331,
+  "duration": 6024155700,
   "status": "passed"
 });
 formatter.match({
@@ -152,30 +152,30 @@ formatter.match({
   "location": "StepDefinition.user_enter_username_and_password_from_rownum(String)"
 });
 formatter.result({
-  "duration": 1791057,
+  "duration": 2784300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_get_the_details()"
 });
 formatter.result({
-  "duration": 78373,
+  "duration": 101300,
   "status": "passed"
 });
 formatter.write("I am inside tear down");
 formatter.after({
-  "duration": 2340094402,
+  "duration": 271607400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2716910300,
+  "duration": 3441235000,
   "status": "passed"
 });
 formatter.scenario({
   "line": 78,
   "name": "DataProvider1",
   "description": "",
-  "id": "dfgfg;dataprovider1;;3",
+  "id": "this-is-just-a-sample--bdd-feature;dataprovider1;;3",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -224,7 +224,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_url_fromm_rownum(String)"
 });
 formatter.result({
-  "duration": 2595642435,
+  "duration": 5019548900,
   "status": "passed"
 });
 formatter.match({
@@ -237,30 +237,30 @@ formatter.match({
   "location": "StepDefinition.user_enter_username_and_password_from_rownum(String)"
 });
 formatter.result({
-  "duration": 348321,
+  "duration": 766200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_get_the_details()"
 });
 formatter.result({
-  "duration": 16794,
+  "duration": 33100,
   "status": "passed"
 });
 formatter.write("I am inside tear down");
 formatter.after({
-  "duration": 2338152508,
+  "duration": 4169027800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2605443956,
+  "duration": 3415175500,
   "status": "passed"
 });
 formatter.scenario({
   "line": 79,
   "name": "DataProvider1",
   "description": "",
-  "id": "dfgfg;dataprovider1;;4",
+  "id": "this-is-just-a-sample--bdd-feature;dataprovider1;;4",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -309,7 +309,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_url_fromm_rownum(String)"
 });
 formatter.result({
-  "duration": 2612637730,
+  "duration": 4110333900,
   "status": "passed"
 });
 formatter.match({
@@ -322,19 +322,19 @@ formatter.match({
   "location": "StepDefinition.user_enter_username_and_password_from_rownum(String)"
 });
 formatter.result({
-  "duration": 1020396,
+  "duration": 703900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_get_the_details()"
 });
 formatter.result({
-  "duration": 21148,
+  "duration": 18600,
   "status": "passed"
 });
 formatter.write("I am inside tear down");
 formatter.after({
-  "duration": 2352949958,
+  "duration": 4119893300,
   "status": "passed"
 });
 });

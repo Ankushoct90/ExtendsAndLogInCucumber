@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3600011072,
+              "duration": 5960632300,
               "status": "passed"
             },
             "match": {
@@ -17,11 +17,11 @@
         "line": 77,
         "name": "DataProvider1",
         "description": "",
-        "id": "dfgfg;dataprovider1;;2",
+        "id": "this-is-just-a-sample--bdd-feature;dataprovider1;;2",
         "after": [
           {
             "result": {
-              "duration": 2340094402,
+              "duration": 271607400,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3329200331,
+              "duration": 6024155700,
               "status": "passed"
             },
             "line": 71,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 1791057,
+              "duration": 2784300,
               "status": "passed"
             },
             "line": 72,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 78373,
+              "duration": 101300,
               "status": "passed"
             },
             "output": [
@@ -109,7 +109,7 @@
         "before": [
           {
             "result": {
-              "duration": 2716910300,
+              "duration": 3441235000,
               "status": "passed"
             },
             "match": {
@@ -120,11 +120,11 @@
         "line": 78,
         "name": "DataProvider1",
         "description": "",
-        "id": "dfgfg;dataprovider1;;3",
+        "id": "this-is-just-a-sample--bdd-feature;dataprovider1;;3",
         "after": [
           {
             "result": {
-              "duration": 2338152508,
+              "duration": 4169027800,
               "status": "passed"
             },
             "match": {
@@ -137,7 +137,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2595642435,
+              "duration": 5019548900,
               "status": "passed"
             },
             "line": 71,
@@ -158,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 348321,
+              "duration": 766200,
               "status": "passed"
             },
             "line": 72,
@@ -179,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 16794,
+              "duration": 33100,
               "status": "passed"
             },
             "output": [
@@ -212,7 +212,7 @@
         "before": [
           {
             "result": {
-              "duration": 2605443956,
+              "duration": 3415175500,
               "status": "passed"
             },
             "match": {
@@ -223,11 +223,11 @@
         "line": 79,
         "name": "DataProvider1",
         "description": "",
-        "id": "dfgfg;dataprovider1;;4",
+        "id": "this-is-just-a-sample--bdd-feature;dataprovider1;;4",
         "after": [
           {
             "result": {
-              "duration": 2352949958,
+              "duration": 4119893300,
               "status": "passed"
             },
             "match": {
@@ -240,7 +240,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2612637730,
+              "duration": 4110333900,
               "status": "passed"
             },
             "line": 71,
@@ -261,7 +261,7 @@
           },
           {
             "result": {
-              "duration": 1020396,
+              "duration": 703900,
               "status": "passed"
             },
             "line": 72,
@@ -282,7 +282,7 @@
           },
           {
             "result": {
-              "duration": 21148,
+              "duration": 18600,
               "status": "passed"
             },
             "output": [
@@ -312,9 +312,9 @@
         ]
       }
     ],
-    "name": "dfgfg",
+    "name": "This is just a sample  BDD feature",
     "description": "",
-    "id": "dfgfg",
+    "id": "this-is-just-a-sample--bdd-feature",
     "keyword": "Feature",
     "uri": "src/test/resources/Feature/FeatureFile.feature",
     "tags": [

@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber Reports (no 42) - Feature: dfgfg</title>
+<title>Cucumber Reports (no 42) - Feature: This is just a sample  BDD feature</title>
 
 </head>
 <body>
@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-jvm-example</td>
               <td>42</td>
-            <td>31 Aug 2019, 22:43</td>
+            <td>10 May 2020, 12:33</td>
     </tr>
   </tbody>
 </table>
@@ -129,20 +129,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">dfgfg</td>
-                    <td      class="passed"    >1</td>
-          <td      class="failed"    >1</td>
-          <td     class="skipped"   >1</td>
+          <td class="tagname">This is just a sample  BDD feature</td>
+                    <td      class="passed"    >9</td>
           <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">9</td>
+
+          <td  class="passed"    >3</td>
           <td >0</td>
           <td class="total">3</td>
 
-          <td >0</td>
-          <td  class="failed"    >1</td>
-          <td class="total">1</td>
-
-          <td class="duration" data-value="18778788837">18s 778ms</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="15158445900">15s 158ms</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -177,9 +177,9 @@ $(document).ready(function() {
       </div>
 
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
-  <span class="name">dfgfg</span>
+  <span class="name">This is just a sample  BDD feature</span>
   
 
   </div>
@@ -193,15 +193,17 @@ $(document).ready(function() {
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_test1.html">@test1</a>
+           <a href="report-tag_regerssion.html">@regerssion</a>
+           <a href="report-tag_DataProvider1.html">@DataProvider1</a>
+           <a href="report-tag_feature.html">@feature</a>
       </div>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
-<div class="brief failed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">SCR001</span>
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">DataProvider1</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -210,7 +212,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
     
   <div class="inner-level hooks-before">
         <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
@@ -231,22 +233,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">CommonStep.setup(Scenario)</span>
                         
-  <span class="lead-duration duration">3s 568ms</span>
-
-          </div>
-
-                      
-
-          
-          
-  
-        </div>
-              <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-                          <span class="location name">CommonStep.login1()</span>
-                        
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">5s 960ms</span>
 
           </div>
 
@@ -262,9 +249,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -274,14 +261,60 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">user open the browser and enter url</span>
+  <span class="name">user enter url fromm rownum &quot;2&quot;</span>
   
-  <span class="lead-duration duration">11s 174ms</span>
+  <span class="lead-duration duration">6s 024ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+  <div class="outputs inner-level">
+      </div>
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">user enter username and password from rownum &quot;2&quot;</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+  <div class="outputs inner-level">
+      </div>
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user get the details</span>
+  
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -300,58 +333,141 @@ $(document).ready(function() {
         </div>
         <div id="output-4" class="collapse collapsable-details " >
           <pre class="white-space-normal">
-                          <span>I am insideSetup</span><br>
-                          <span>taking screen shot</span><br>
+                          <span>I am inside tear down</span><br>
                       </pre>
         </div>
       </div>
       </div>
 
         
-    <div class="embeddings inner-level">
-                <div class="embedding indention">
-        <div data-toggle="collapse" data-target="#embedding-5" class="collapsable-control">
-      <a>Attachment 1 (png)</a>
-      <a href="embeddings/embedding_-572502743.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-5" class="collapse collapsable-details">
-      <span class="embedding-content">
-        <img src="embeddings/embedding_-572502743.png">
-      </span>
-    </div>
-  </div>
-        </div>
   
       </div>
+      </div>
+</div>
+
+
+    
+  <div class="inner-level hooks-after">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-5" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">CommonStep.tearDown(Scenario)</span>
+                        
+  <span class="lead-duration duration">271ms</span>
+
+          </div>
+
+                      
+
+          
+          
+  
+        </div>
+          </div>
+  </div>
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_regerssion.html">@regerssion</a>
+           <a href="report-tag_DataProvider1.html">@DataProvider1</a>
+           <a href="report-tag_feature.html">@feature</a>
+      </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-6">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">DataProvider1</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-6" class="collapse collapsable-details ">
+    
+  <div class="inner-level hooks-before">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-7">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-7" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">CommonStep.setup(Scenario)</span>
+                        
+  <span class="lead-duration duration">3s 441ms</span>
+
+          </div>
+
+                      
+
+          
+          
+  
+        </div>
+          </div>
+  </div>
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-8">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-8" class="inner-level collapse collapsable-details ">
           <div class="step">
         
-<div class="brief failed">
-  <span class="keyword indention">When</span>
-  <span class="name">user enter userid and password</span>
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user enter url fromm rownum &quot;3&quot;</span>
   
-  <span class="lead-duration duration">7s 603ms</span>
+  <span class="lead-duration duration">5s 019ms</span>
 
   </div>
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
-          <a>junit.framework.AssertionFailedError: failed</a>
-      </div>
-      <div id="msg-6" class="collapse collapsable-details  in ">
-        <pre>junit.framework.AssertionFailedError: failed
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
-	at com.manmohan.SampleSeleniumProject.StepDef.StepDefinition.user_enter_userid_and_password(StepDefinition.java:72)
-	at &#10045;.When user enter userid and password(src/test/resources/Feature/FeatureFile.feature:7)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -359,18 +475,6 @@ $(document).ready(function() {
 
         
   <div class="outputs inner-level">
-          <div class="output indention">
-        <div data-toggle="collapse" class=" collapsable-control" data-target="#output-7">
-          Output 1
-          <i class="chevron fa fa-fw"></i>
-        </div>
-        <div id="output-7" class="collapse collapsable-details  in "  aria-expanded="true" >
-          <pre class="white-space-normal">
-                          <span>user enter userid and password</span><br>
-                          <span>signin done</span><br>
-                      </pre>
-        </div>
-      </div>
       </div>
 
         
@@ -378,9 +482,32 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">user enter username and password from rownum &quot;3&quot;</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+  <div class="outputs inner-level">
+      </div>
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">Verify thta user is logged in successfully</span>
+  <span class="name">user get the details</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -395,11 +522,11 @@ $(document).ready(function() {
         
   <div class="outputs inner-level">
           <div class="output indention">
-        <div data-toggle="collapse" class=" collapsable-control" data-target="#output-8">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-9">
           Output 1
           <i class="chevron fa fa-fw"></i>
         </div>
-        <div id="output-8" class="collapse collapsable-details  in "  aria-expanded="true" >
+        <div id="output-9" class="collapse collapsable-details " >
           <pre class="white-space-normal">
                           <span>I am inside tear down</span><br>
                       </pre>
@@ -408,21 +535,6 @@ $(document).ready(function() {
       </div>
 
         
-    <div class="embeddings inner-level">
-                <div class="embedding indention">
-        <div data-toggle="collapse" data-target="#embedding-9" class="collapsable-control">
-      <a>Attachment 1 (png)</a>
-      <a href="embeddings/embedding_901861808.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-9" class="collapse collapsable-details">
-      <span class="embedding-content">
-        <img src="embeddings/embedding_901861808.png">
-      </span>
-    </div>
-  </div>
-        </div>
   
       </div>
       </div>
@@ -449,7 +561,202 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
                           <span class="location name">CommonStep.tearDown(Scenario)</span>
                         
-  <span class="lead-duration duration">2s 409ms</span>
+  <span class="lead-duration duration">4s 169ms</span>
+
+          </div>
+
+                      
+
+          
+          
+  
+        </div>
+          </div>
+  </div>
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_regerssion.html">@regerssion</a>
+           <a href="report-tag_DataProvider1.html">@DataProvider1</a>
+           <a href="report-tag_feature.html">@feature</a>
+      </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">DataProvider1</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-11" class="collapse collapsable-details ">
+    
+  <div class="inner-level hooks-before">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-12">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-12" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">CommonStep.setup(Scenario)</span>
+                        
+  <span class="lead-duration duration">3s 415ms</span>
+
+          </div>
+
+                      
+
+          
+          
+  
+        </div>
+          </div>
+  </div>
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-13">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-13" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user enter url fromm rownum &quot;4&quot;</span>
+  
+  <span class="lead-duration duration">4s 110ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+  <div class="outputs inner-level">
+      </div>
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">user enter username and password from rownum &quot;4&quot;</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+  <div class="outputs inner-level">
+      </div>
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user get the details</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+  <div class="outputs inner-level">
+          <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-14">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-14" class="collapse collapsable-details " >
+          <pre class="white-space-normal">
+                          <span>I am inside tear down</span><br>
+                      </pre>
+        </div>
+      </div>
+      </div>
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+  <div class="inner-level hooks-after">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-15">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-15" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">CommonStep.tearDown(Scenario)</span>
+                        
+  <span class="lead-duration duration">4s 119ms</span>
 
           </div>
 

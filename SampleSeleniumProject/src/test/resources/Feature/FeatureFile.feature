@@ -1,5 +1,5 @@
 @feature @regerssion
-Feature: dfgfg
+Feature: This is just a sample  BDD feature
 
 @test1
 Scenario: SCR001

@@ -1,7 +1,7 @@
-E:\Video\SampleSeleniumProject\src\test\java\com\manmohan\SampleSeleniumProject\StepDef\CommonStep.java
-E:\Video\SampleSeleniumProject\src\test\java\com\manmohan\SampleSeleniumProject\TestRunner.java
-E:\Video\SampleSeleniumProject\src\test\java\com\manmohan\SampleSeleniumProject\util\SeleniumUtil.java
-E:\Video\SampleSeleniumProject\src\test\java\com\manmohan\SampleSeleniumProject\util\Xls_Reader.java
-E:\Video\SampleSeleniumProject\src\test\java\com\manmohan\PageObject\Login.java
-E:\Video\SampleSeleniumProject\src\test\java\com\manmohan\SampleSeleniumProject\StepDef\StepDefinition.java
-E:\Video\SampleSeleniumProject\src\test\java\com\manmohan\SampleSeleniumProject\TestRunnerRerun.java
+C:\Users\Ankush\git\ExtendsAndLogInCucumber\SampleSeleniumProject\src\test\java\stepDefinition\CommonStep.java
+C:\Users\Ankush\git\ExtendsAndLogInCucumber\SampleSeleniumProject\src\test\java\pageObjects\Login.java
+C:\Users\Ankush\git\ExtendsAndLogInCucumber\SampleSeleniumProject\src\test\java\stepDefinition\StepDefinition.java
+C:\Users\Ankush\git\ExtendsAndLogInCucumber\SampleSeleniumProject\src\test\java\util\SeleniumUtil.java
+C:\Users\Ankush\git\ExtendsAndLogInCucumber\SampleSeleniumProject\src\test\java\runCukes\TestRunner.java
+C:\Users\Ankush\git\ExtendsAndLogInCucumber\SampleSeleniumProject\src\test\java\util\Xls_Reader.java
+C:\Users\Ankush\git\ExtendsAndLogInCucumber\SampleSeleniumProject\src\test\java\runCukes\TestRunnerRerun.java
