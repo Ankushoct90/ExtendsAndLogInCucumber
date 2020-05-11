@@ -21,37 +21,23 @@ public class CommonStep {
 	WebDriver driver;
    
     //helps to generate the logs in test report.
-    private static int  rowNum;
-	private static ExtentTest test;
-	private static boolean flag;
+    public static int  rowNum;
+    public static ExtentTest test;
+    public static boolean flag;
 	public static Scenario scenario;
-	private static  Logger LOGGER=LogManager.getLogger(CommonStep.class);
-	private static String scenarioName;
+	//public static  Logger LOGGER=LogManager.getLogger(CommonStep.class);
+	public static String scenarioName;
 	
-
-
-	
-
-	private static int count=0;
+	public static int count=0;
 	@Before
 	public void setup(Scenario scenario){
-		LOGGER.info("I am insideSetup");
+		//LOGGER.info("I am insideSetup");
 		
 		
 		CommonStep.scenario=scenario;
 	
 		 scenarioName=scenario.getName();
-		/*Xls_Reader xls= new Xls_Reader();
-		 rowNum=xls.getCellRowNum("FR01", "ScenarioName", scenarioName);
-		String runmode=xls.getCellData("FR01", "RunMode", rowNum);
-		
 				
-		if(runmode.equalsIgnoreCase("N")){
-			Assume.assumeTrue(false);
-		}else if(runmode.equalsIgnoreCase("")){
-			Assume.assumeTrue(false);
-		}*/
-		
 		test = TestRunner.getExtent().createTest("Test Case "+count, scenarioName);
 	    
 		SeleniumUtil.getInstance();
@@ -59,17 +45,17 @@ public class CommonStep {
 	}
     
 	
-	@Before("@tag2,@Tag1,@test1")
+	/*@Before("@tag2,@Tag1,@test1")
 	public void login1(){
 		System.out.println("testing for Tag2");
 		
 	}
-		
+		*/
 	
 	
 	@After
 	public void tearDown(Scenario scenario){
-		LOGGER.info("I am tearDown");
+		//LOGGER.info("I am tearDown");
 		scenario.write("I am inside tear down");
 		if(test!=null && driver != null){
 		if(scenario.isFailed()){	
@@ -77,23 +63,24 @@ public class CommonStep {
 		scenario.embed(screenshot, "image/png"); // stick it in the report
 		
 		test.log(Status.FAIL, MarkupHelper.createLabel(" FAILED ", ExtentColor.RED));
-		}else{	
+		}
+		else{	
 			test.log(Status.PASS, MarkupHelper.createLabel(" Passed ", ExtentColor.GREEN));
 		}
 		
-		driver.close();
 		
-		SeleniumUtil.setDriver(null);
+		driver.quit();
+    	
 		}
 		
 	count++;
 		
 	}
 	
-	@After("@Tag2")
+	/*@After("@Tag2")
 	public void login2(){
 		
-	}
+	}*/
 	
 	public static int getRownum() {
 		return rowNum;
