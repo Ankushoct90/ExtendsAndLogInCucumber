@@ -4,12 +4,13 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import stepDefinition.CommonStep;
 import util.SeleniumUtil;
 
 
 public class Login {
 		
-	static WebDriver driver=util.SeleniumUtil.getDriver();
+	//static WebDriver driver;
 	public static final String TITLE="Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in";
 	public static final String SIGN_IN_CSS = "#nav-link-accountList";
 	public static final String EMAIL_ID_CSS="#ap_email";
@@ -21,7 +22,7 @@ public class Login {
 	
 	public static void validateLoginPageTitle(){
 		
-		Assert.assertEquals("The title of the page is not matching", TITLE,driver.getTitle());
+		Assert.assertEquals("The title of the page is not matching", TITLE,CommonStep.driver.getTitle());
 		
 	}
 	

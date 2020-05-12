@@ -10,8 +10,10 @@ public class StepDefinition {
 
 	@Given("^user open the browser and enter url$")
 	public void user_open_the_browser_and_enter_url_as() throws Throwable {
-		CommonStep.scenario.write("user open the browser and enter url");
+		
 		SeleniumUtil.navigate("https://www.amazon.in/");
+		CommonStep.scenario.write("Browser is opened");
+		CommonStep.scenario.write("Application is launched after hitting URL");
 
 		// Ideally to be done like below
 		// SeleniumUtil.navigate(SeleniumUtil.configProperties.getProperty("url"));

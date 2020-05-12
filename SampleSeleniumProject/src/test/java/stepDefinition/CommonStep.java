@@ -1,7 +1,6 @@
 package stepDefinition;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +17,7 @@ import runCukes.TestRunner;
 import util.SeleniumUtil;
 
 public class CommonStep {
-	WebDriver driver;
+	public static WebDriver driver;
    
     //helps to generate the logs in test report.
     public static int  rowNum;
@@ -33,7 +32,7 @@ public class CommonStep {
 	public void setup(Scenario scenario){
 		//LOGGER.info("I am insideSetup");
 		
-		
+		System.out.println("Inside SetUp in commonstep class");
 		CommonStep.scenario=scenario;
 	
 		 scenarioName=scenario.getName();
@@ -76,6 +75,7 @@ public class CommonStep {
 	count++;
 		
 	}
+	
 	
 	/*@After("@Tag2")
 	public void login2(){
