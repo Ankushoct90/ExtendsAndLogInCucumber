@@ -57,7 +57,7 @@ public class Login {
 	
 	
 	
-	public static String userId= "90ankush@gmail.com";
-	public static String password ="vaami123";
+	public static String userId= "9ankush@gmail.com";
+	public static String password ="********";
 	
 }
