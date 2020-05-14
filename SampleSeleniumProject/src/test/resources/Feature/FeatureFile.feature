@@ -1,4 +1,4 @@
-Feature: This is just a sample  BDD feature
+Feature: This is just a sample  BDD feature for Jenkins
 
 Scenario: A sample amazon use case
 Given user open the browser and enter url
