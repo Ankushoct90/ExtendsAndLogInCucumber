@@ -1,6 +1,6 @@
-Feature: This is just a sample  BDD feature for Jenkins
+Feature: This is DEMO file
 
-Scenario: A sample amazon use case
+Scenario: A sample amazon use case for DEMO
 Given user open the browser and enter url
 Then user clicks on sign in link
 And user enters userId 
