@@ -10,7 +10,7 @@ import util.SeleniumUtil;
 
 public class Login {
 		
-	//static WebDriver driver;
+	//static WebDriver river;
 	public static final String TITLE="Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in";
 	public static final String SIGN_IN_CSS = "#nav-link-accountList";
 	public static final String EMAIL_ID_CSS="#ap_email";
